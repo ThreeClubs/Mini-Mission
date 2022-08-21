@@ -88,8 +88,10 @@ body {
 .imgph {
     background-color: #aaa;
     width: 100%;
-    height: 60px;
+    height: 100px;
     padding: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* taller image placeholder */
@@ -97,8 +99,19 @@ body {
 .imgph2 {
     background-color: #aaa;
     width: 100%;
+    height: 300px;
+    padding: 20px;
+     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgph3 {
+    background-color: #ffffff;
+    width: 100%;
     height: 200px;
     padding: 20px;
+     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* footer */
@@ -108,4 +121,25 @@ body {
     text-align: center;
     background: #553175;
     color: white;
+}
+
+/* images */
+
+#k1 {
+ background-image: url(images/k1.jpeg);
+}
+#k2 {
+background-image: url(images/k2.jpeg);
+}
+#k3 {
+background-image: url(images/k3.jpeg);
+}
+#k4 {
+background-image: url(images/k4.jpeg);
+}
+#k5 {
+background-image: url(images/k5.jpeg);
+}
+#k6 {
+background-image: url(images/k6.jpeg);
 }
